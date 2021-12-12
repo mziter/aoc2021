@@ -1,5 +1,6 @@
 def main():
     part_one()
+    part_two()
 
 def part_one():
     instructions = read_input()
@@ -15,7 +16,7 @@ def part_one():
             depth += magnitude
     print(horizontal * depth)
 
-def part_one():
+def part_two():
     instructions = read_input()
     horizontal = 0
     depth = 0
